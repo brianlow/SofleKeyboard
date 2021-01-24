@@ -331,139 +331,6 @@ i2c_d
 Text Label 1750 3050 0    50   ~ 0
 i2c_c
 Wire Wire Line
-	5100 850  4850 850 
-Wire Wire Line
-	4850 850  4850 950 
-Wire Wire Line
-	4850 950  4700 950 
-Wire Wire Line
-	4300 850  4100 850 
-Wire Wire Line
-	4100 850  4100 950 
-Wire Wire Line
-	4100 950  3950 950 
-Wire Wire Line
-	3550 850  3350 850 
-Wire Wire Line
-	3350 1500 3550 1500
-Wire Wire Line
-	3950 1600 4150 1600
-Wire Wire Line
-	4150 1600 4150 1500
-Wire Wire Line
-	4150 1500 4300 1500
-Wire Wire Line
-	4700 1600 4900 1600
-Wire Wire Line
-	4900 1600 4900 1500
-Wire Wire Line
-	4900 1500 5100 1500
-Wire Wire Line
-	5700 600  5500 600 
-Wire Wire Line
-	3950 600  3950 850 
-Wire Wire Line
-	4700 850  4700 600 
-Connection ~ 4700 600 
-Wire Wire Line
-	4700 600  3950 600 
-Wire Wire Line
-	5500 850  5500 600 
-Connection ~ 5500 600 
-Wire Wire Line
-	5500 600  4700 600 
-Wire Wire Line
-	3550 2000 4300 2000
-Connection ~ 4300 2000
-Wire Wire Line
-	3550 2000 3250 2000
-Wire Wire Line
-	3250 2000 3250 1850
-Connection ~ 3550 2000
-Wire Wire Line
-	3350 850  3350 1500
-Wire Wire Line
-	3950 1500 3950 1200
-Wire Wire Line
-	3950 1200 3550 1200
-Wire Wire Line
-	3550 1200 3550 950 
-Wire Wire Line
-	3950 1200 4300 1200
-Wire Wire Line
-	4300 1200 4300 950 
-Connection ~ 3950 1200
-Wire Wire Line
-	4300 1200 4700 1200
-Wire Wire Line
-	4700 1200 4700 1500
-Connection ~ 4300 1200
-Wire Wire Line
-	4700 1200 5100 1200
-Wire Wire Line
-	5100 1200 5100 950 
-Connection ~ 4700 1200
-Connection ~ 5100 1200
-Wire Wire Line
-	6500 1000 6500 850 
-Wire Wire Line
-	6400 850  6400 950 
-Wire Wire Line
-	5500 950  6400 950 
-Text Label 5900 950  0    50   ~ 0
-underglow
-Text Label 6750 850  0    50   ~ 0
-backlight
-Wire Wire Line
-	5500 1500 5500 1200
-Wire Wire Line
-	5100 1200 5500 1200
-Wire Wire Line
-	6600 850  7100 850 
-Wire Wire Line
-	4300 2000 5100 2000
-Wire Wire Line
-	3550 1600 3550 2000
-Wire Wire Line
-	4300 1600 4300 2000
-Wire Wire Line
-	5100 1600 5100 2000
-Text GLabel 3750 2300 2    50   Input ~ 0
-LED
-Wire Wire Line
-	3750 2300 3700 2300
-Wire Wire Line
-	3700 2200 3750 2200
-Wire Wire Line
-	4000 2500 3850 2500
-Wire Wire Line
-	4400 2500 4550 2500
-Wire Wire Line
-	4000 2400 3700 2400
-Text GLabel 4550 2500 2    50   Input ~ 0
-lights
-Text GLabel 6500 1000 2    50   Input ~ 0
-lights
-Text GLabel 3750 2200 2    50   Input ~ 0
-lights
-Wire Wire Line
-	5500 1200 5900 1200
-Connection ~ 5500 1200
-Wire Wire Line
-	5500 1600 6500 1600
-Wire Wire Line
-	6500 1600 6500 1550
-Wire Wire Line
-	6600 1550 6600 1600
-Wire Wire Line
-	6600 1600 7100 1600
-Wire Wire Line
-	7100 1600 7100 850 
-Wire Wire Line
-	10950 3000 11150 3000
-Text Label 10950 3000 0    50   ~ 0
-backlight
-Wire Wire Line
 	7550 1900 7550 2150
 Wire Wire Line
 	7950 1900 7550 1900
@@ -885,8 +752,6 @@ Wire Wire Line
 Wire Wire Line
 	10550 2600 10550 2350
 Wire Wire Line
-	10950 2700 10950 3000
-Wire Wire Line
 	10450 2700 10450 2900
 Connection ~ 10450 2700
 Wire Wire Line
@@ -930,28 +795,6 @@ Wire Wire Line
 	11050 800  11050 700 
 Wire Wire Line
 	10950 800  11050 800 
-$Comp
-L SofleKeyboard:LED_sk2812_SM D36
-U 1 1 5F7EF5F8
-P 5300 1550
-F 0 "D36" H 5300 1377 50  0000 C CNN
-F 1 "LED_sk2812_SM" H 5300 1724 50  0001 C CNN
-F 2 "LED_SMD:SK6812MINI_underglow_dev" H 5300 1550 50  0001 C CNN
-F 3 "" H 5300 1550 50  0001 C CNN
-	1    5300 1550
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:LED_sk2812_SM D37
-U 1 1 5F918D28
-P 4200 2450
-F 0 "D37" H 4200 2277 50  0000 C CNN
-F 1 "LED_sk2812_SM" H 4200 2624 50  0001 C CNN
-F 2 "LED_SMD:SK6812MINI_underglow_dev" H 4200 2450 50  0001 C CNN
-F 3 "" H 4200 2450 50  0001 C CNN
-	1    4200 2450
-	-1   0    0    1   
-$EndComp
 $Comp
 L SofleKeyboard:SW_PUSH-MX_W_LED SW1
 U 1 1 5B7225DA
@@ -1083,94 +926,6 @@ F 2 "" H 11050 700 50  0001 C CNN
 F 3 "" H 11050 700 50  0001 C CNN
 	1    11050 700 
 	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue #PWR023
-U 1 1 5FB348BA
-P 4950 2700
-F 0 "#PWR023" H 4950 2450 50  0001 C CNN
-F 1 "GND" H 4955 2527 50  0000 C CNN
-F 2 "" H 4950 2700 50  0001 C CNN
-F 3 "" H 4950 2700 50  0001 C CNN
-	1    4950 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:VCC-Lily58-cache-Lily58_Pro-rescue #PWR022
-U 1 1 5FB33FDA
-P 3650 2750
-F 0 "#PWR022" H 3650 2600 50  0001 C CNN
-F 1 "VCC" H 3667 2923 50  0000 C CNN
-F 2 "" H 3650 2750 50  0001 C CNN
-F 3 "" H 3650 2750 50  0001 C CNN
-	1    3650 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:LED-Lily58-cache-Lily58_Pro-rescue J6
-U 1 1 5F9B1170
-P 3500 2300
-F 0 "J6" H 3500 2500 50  0000 C CNN
-F 1 "indicator bypass" H 3500 2100 50  0000 C CNN
-F 2 "Connector:3x1header" H 3500 2300 50  0001 C CNN
-F 3 "" H 3500 2300 50  0001 C CNN
-	1    3500 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:LED-Lily58-cache-Lily58_Pro-rescue J4
-U 1 1 5F8D2081
-P 6500 650
-F 0 "J4" H 6500 850 50  0000 C CNN
-F 1 "key leds" H 6500 450 50  0000 C CNN
-F 2 "Connector:3x1header" H 6500 650 50  0001 C CNN
-F 3 "" H 6500 650 50  0001 C CNN
-	1    6500 650 
-	0    1    1    0   
-$EndComp
-$Comp
-L SofleKeyboard-rescue:VCC-Lily58-cache-Lily58_Pro-rescue #PWR021
-U 1 1 5F89E5EE
-P 3250 1850
-F 0 "#PWR021" H 3250 1700 50  0001 C CNN
-F 1 "VCC" H 3267 2023 50  0000 C CNN
-F 2 "" H 3250 1850 50  0001 C CNN
-F 3 "" H 3250 1850 50  0001 C CNN
-	1    3250 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue #PWR020
-U 1 1 5F84539D
-P 5900 1200
-F 0 "#PWR020" H 5900 950 50  0001 C CNN
-F 1 "GND" H 5905 1027 50  0000 C CNN
-F 2 "" H 5900 1200 50  0001 C CNN
-F 3 "" H 5900 1200 50  0001 C CNN
-	1    5900 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:VCC-Lily58-cache-Lily58_Pro-rescue #PWR018
-U 1 1 5F843EAE
-P 5700 600
-F 0 "#PWR018" H 5700 450 50  0001 C CNN
-F 1 "VCC" H 5717 773 50  0000 C CNN
-F 2 "" H 5700 600 50  0001 C CNN
-F 3 "" H 5700 600 50  0001 C CNN
-	1    5700 600 
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard-rescue:LED-Lily58-cache-Lily58_Pro-rescue J5
-U 1 1 5F84000D
-P 6500 1350
-F 0 "J5" H 6500 1550 50  0000 C CNN
-F 1 "backlight sel" V 6400 1400 50  0000 C CNN
-F 2 "Connector:3x1header" H 6500 1350 50  0001 C CNN
-F 3 "" H 6500 1350 50  0001 C CNN
-	1    6500 1350
-	0    1    1    0   
 $EndComp
 $Comp
 L SofleKeyboard:SW_PUSH-MX_W_LED SW30
@@ -2559,61 +2314,6 @@ F 3 "" H 10750 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SofleKeyboard:LED_sk2812_SM D35
-U 1 1 5F7EF5F2
-P 4500 1550
-F 0 "D35" H 4500 1377 50  0000 C CNN
-F 1 "LED_sk2812_SM" H 4500 1724 50  0001 C CNN
-F 2 "LED_SMD:SK6812MINI_underglow_dev" H 4500 1550 50  0001 C CNN
-F 3 "" H 4500 1550 50  0001 C CNN
-	1    4500 1550
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:LED_sk2812_SM D34
-U 1 1 5F7EC8B3
-P 3750 1550
-F 0 "D34" H 3750 1377 50  0000 C CNN
-F 1 "LED_sk2812_SM" H 3750 1724 50  0001 C CNN
-F 2 "LED_SMD:SK6812MINI_underglow_dev" H 3750 1550 50  0001 C CNN
-F 3 "" H 3750 1550 50  0001 C CNN
-	1    3750 1550
-	-1   0    0    1   
-$EndComp
-$Comp
-L SofleKeyboard:LED_sk2812_SM D33
-U 1 1 5F7EC8AD
-P 5300 900
-F 0 "D33" H 5300 1073 50  0000 C CNN
-F 1 "LED_sk2812_SM" H 5300 1074 50  0001 C CNN
-F 2 "LED_SMD:SK6812MINI_underglow_dev" H 5300 900 50  0001 C CNN
-F 3 "" H 5300 900 50  0001 C CNN
-	1    5300 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:LED_sk2812_SM D32
-U 1 1 5F7E9258
-P 4500 900
-F 0 "D32" H 4500 1073 50  0000 C CNN
-F 1 "LED_sk2812_SM" H 4500 1074 50  0001 C CNN
-F 2 "LED_SMD:SK6812MINI_underglow_dev" H 4500 900 50  0001 C CNN
-F 3 "" H 4500 900 50  0001 C CNN
-	1    4500 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L SofleKeyboard:LED_sk2812_SM D31
-U 1 1 5F7E6561
-P 3750 900
-F 0 "D31" H 3750 1073 50  0000 C CNN
-F 1 "LED_sk2812_SM" H 3750 1074 50  0001 C CNN
-F 2 "LED_SMD:SK6812MINI_underglow_dev" H 3750 900 50  0001 C CNN
-F 3 "" H 3750 900 50  0001 C CNN
-	1    3750 900 
-	1    0    0    -1  
-$EndComp
-$Comp
 L SofleKeyboard:SW_PUSH-MX_W_LED SW1
 U 2 1 5F749FCB
 P 7750 850
@@ -2625,7 +2325,6 @@ F 3 "" H 7750 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 7950 2250
-NoConn ~ 6400 1550
 $Comp
 L SofleKeyboard:SW_PUSH-MX_W_LED SW4
 U 1 1 5B722A11
@@ -2637,12 +2336,10 @@ F 3 "" H 9000 3450 50  0000 C CNN
 	1    9000 3450
 	1    0    0    -1  
 $EndComp
+Text GLabel 11050 2950 3    50   Input ~ 0
+LED
 Wire Wire Line
-	3650 2750 3850 2750
+	10950 2700 11050 2700
 Wire Wire Line
-	3850 2500 3850 2750
-Wire Wire Line
-	4400 2400 4950 2400
-Wire Wire Line
-	4950 2400 4950 2700
+	11050 2700 11050 2950
 $EndSCHEMATC
