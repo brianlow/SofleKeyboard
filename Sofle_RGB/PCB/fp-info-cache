@@ -1,4 +1,4 @@
-19269798844496590
+19269799148206590
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76783,19 +76783,19 @@ SofleRGB
 3
 3
 SofleRGB
-Choc_Hotswap
-
-
-0
-12
-6
-SofleRGB
 Choc_Hotswap_Backup
 
 
 0
 4
 2
+SofleRGB
+Choc_Hotswap_SK6812MiniE
+
+
+0
+12
+6
 SofleRGB
 HOLE_M2_TH
 
