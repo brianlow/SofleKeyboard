@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 109)
+    (drawings 111)
     (tracks 3217)
     (zones 0)
     (modules 84)
@@ -62,7 +62,7 @@
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (grid_origin 150.33912 99.10264)
-    (visible_elements 7EFFFE7F)
+    (visible_elements 7EFFFEFF)
     (pcbplotparams
       (layerselection 0x010f0_ffffffff)
       (usegerberextensions true)
@@ -9408,6 +9408,12 @@
     )
   )
 
+  (gr_text s8 (at 139.60762 61.82814) (layer Eco1.User) (tstamp 601AD1AA)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text s9 (at 158.53062 59.35164) (layer Eco1.User) (tstamp 601AD1A7)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text s6 (at 215.87112 47.54064) (layer Eco1.User) (tstamp 5FB24AE6)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -9535,10 +9541,10 @@
   (gr_text https://josefadamcik.github.io/SofleKeyboard/ (at 157.64162 132.88464) (layer B.SilkS) (tstamp 5F80515B)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Sofle Choc v2.0, Brian Low" (at 201 127.25 21) (layer B.SilkS) (tstamp 5F80858D)
+  (gr_text "Sofle Choc v2.0 by Brian Low" (at 201 127.25 21) (layer B.SilkS) (tstamp 5F80858D)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
-  (gr_text "Sofle Choc v2.0, Brian Low" (at 201.25 127.25 21) (layer F.SilkS)
+  (gr_text "Sofle Choc v2.0 by Brian Low" (at 201.25 127.25 21) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_line (start 93.35 146.65) (end 93.9 146.75) (layer Cmts.User) (width 0.1) (tstamp 5F809492))
