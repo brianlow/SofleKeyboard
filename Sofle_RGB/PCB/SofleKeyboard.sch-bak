@@ -348,7 +348,7 @@ F 1 "SW_PUSH_LED" H 8225 1249 50  0001 C CNN
 F 2 "SofleRGB:Choc_Hotswap_SK6812MiniE" H 8225 1225 50  0001 C CNN
 F 3 "" H 8225 1225 50  0001 C CNN
 	2    8225 975 
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L SofleKeyboard:SW_PUSH_LED SW2
@@ -425,7 +425,7 @@ F 1 "SW_PUSH_LED" H 8225 3049 50  0001 C CNN
 F 2 "SofleRGB:Choc_Hotswap_SK6812MiniE" H 8225 3025 50  0001 C CNN
 F 3 "" H 8225 3025 50  0001 C CNN
 	2    8225 2775
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L SofleKeyboard:SW_PUSH_LED SW13
@@ -447,7 +447,7 @@ F 1 "SW_PUSH_LED" H 8225 2149 50  0001 C CNN
 F 2 "SofleRGB:Choc_Hotswap_SK6812MiniE" H 8225 2125 50  0001 C CNN
 F 3 "" H 8225 2125 50  0001 C CNN
 	2    8225 1875
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L SofleKeyboard:SW_PUSH_LED SW15
@@ -502,7 +502,7 @@ F 1 "SW_PUSH_LED" H 8225 2599 50  0001 C CNN
 F 2 "SofleRGB:Choc_Hotswap_SK6812MiniE" H 8225 2575 50  0001 C CNN
 F 3 "" H 8225 2575 50  0001 C CNN
 	2    8225 2325
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L SofleKeyboard:SW_PUSH_LED SW21
@@ -1635,7 +1635,7 @@ F 1 "SW_PUSH_LED" H 8225 1699 50  0001 C CNN
 F 2 "SofleRGB:Choc_Hotswap_SK6812MiniE" H 8225 1675 50  0001 C CNN
 F 3 "" H 8225 1675 50  0001 C CNN
 	2    8225 1425
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L SofleKeyboard:SW_PUSH_LED SW9
@@ -1782,26 +1782,6 @@ Wire Wire Line
 Wire Wire Line
 	7425 2100 7425 2225
 Wire Wire Line
-	7925 875  8025 875 
-Wire Wire Line
-	8425 1075 8425 1200
-Wire Wire Line
-	8425 1200 8025 1200
-Wire Wire Line
-	8025 1200 8025 1325
-Wire Wire Line
-	8425 1525 8425 1650
-Wire Wire Line
-	8425 1650 8025 1650
-Wire Wire Line
-	8025 1650 8025 1775
-Wire Wire Line
-	8425 1975 8425 2100
-Wire Wire Line
-	8425 2100 8025 2100
-Wire Wire Line
-	8025 2100 8025 2225
-Wire Wire Line
 	9025 1075 9025 1200
 Wire Wire Line
 	9025 1200 8625 1200
@@ -1912,22 +1892,6 @@ Wire Wire Line
 Wire Wire Line
 	7350 2675 7425 2675
 Wire Wire Line
-	7825 2875 7925 2875
-Wire Wire Line
-	7925 875  7925 2875
-Wire Wire Line
-	8425 2425 8425 2550
-Wire Wire Line
-	8425 2550 8025 2550
-Wire Wire Line
-	8025 2550 8025 2675
-Wire Wire Line
-	8625 875  8525 875 
-Wire Wire Line
-	8525 875  8525 2875
-Wire Wire Line
-	8525 2875 8425 2875
-Wire Wire Line
 	10225 2425 10300 2425
 Wire Wire Line
 	10300 2425 10300 875 
@@ -1942,4 +1906,32 @@ F 3 "" H 9025 2225 50  0001 C CNN
 	1    9025 2225
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7825 2875 8025 2875
+Wire Wire Line
+	8425 2675 8425 2550
+Wire Wire Line
+	8425 2550 8025 2550
+Wire Wire Line
+	8025 2550 8025 2425
+Wire Wire Line
+	8425 2225 8425 2100
+Wire Wire Line
+	8425 2100 8025 2100
+Wire Wire Line
+	8025 2100 8025 1975
+Wire Wire Line
+	8425 1775 8425 1650
+Wire Wire Line
+	8425 1650 8025 1650
+Wire Wire Line
+	8025 1650 8025 1525
+Wire Wire Line
+	8425 1325 8425 1200
+Wire Wire Line
+	8425 1200 8025 1200
+Wire Wire Line
+	8025 1200 8025 1075
+Wire Wire Line
+	8425 875  8625 875 
 $EndSCHEMATC
