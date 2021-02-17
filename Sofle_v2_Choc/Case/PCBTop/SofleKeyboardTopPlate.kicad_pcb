@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 160)
+    (drawings 164)
     (tracks 0)
     (zones 0)
     (modules 5)
@@ -166,6 +166,18 @@
       (clearance 0.3))
   )
 
+  (gr_text "Original Sofle design by Josef Adamacik" (at 130.895 79.1 90) (layer F.Cu) (tstamp 5F80E41D)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (gr_text "Original Sofle design by Josef Adamacik" (at 130.995 79.3 270) (layer B.Cu) (tstamp 5F80E41C)
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+  )
+  (gr_text https://josefadamcik.github.io/SofleKeyboard/ (at 150.095 80.5 90) (layer F.Cu) (tstamp 5F80E41B)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text https://josefadamcik.github.io/SofleKeyboard/ (at 150.395 80.5 270) (layer B.Cu) (tstamp 5F80E41A)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_line (start 112.995 38) (end 113.395 37.9) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 112.695 38.1) (end 112.995 38) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 112.495 38.2) (end 112.695 38.1) (layer Edge.Cuts) (width 0.15))
